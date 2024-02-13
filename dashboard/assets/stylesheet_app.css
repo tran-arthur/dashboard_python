@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@500&display=swap');
+
+
+header{
+    display: flex;
+    flex-direction: "row";
+    justify-content: center;
+    background-color: "white";
+    margin:4.5%;
+    width: 100%;
+}
+
+.title{
+    text-align: center;
+    color:#4169E1;
+    font-family: 'Geologica','sans-serif';
+}
+
+.title_logo{
+    width: 6%;
+    height: auto;
+}
+
+h1,h2,h3{
+    color:#4169E1;
+    font-family: 'Geologica','sans-serif';
+    text-align:center;
+}
+
+.df{
+    color: #4169E1;
+}
+
+.selector_x{
+    width: '50%';
+    height: auto;
+    display: 'flex';
+    flex-direction: "row";
+    appearance: "none";
+}
+
+.map_css:hover{
+    border: solid #4169E1;
+    border-radius: 4px;
+}
+
+.selector_x_title{
+    color:#4169E1;   
+    font-family: 'Geologica','sans-serif';
+
+}
+.map_container{
+    margin-top: 3%;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+.df td{
+    text-align: center;
+}
+
+
+
